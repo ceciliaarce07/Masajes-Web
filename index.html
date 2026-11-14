@@ -13,11 +13,27 @@
     <header class="bg-white shadow-sm py-6 px-4 text-center">
         <h1 class="text-2xl font-bold tracking-wide text-stone-900">Quiroga Gabriela</h1>
         <p class="text-pink-700 font-medium text-sm mt-1">Fisioterapia y Masajes — Masajes Colibrí</p>
-        <p class="text-stone-500 text-xs mt-2 max-w-md mx-auto">¡Bienvenidos! Elegí tu servicio y reservá tu turno por WhatsApp. (Seña para reservar: $5.000)</p>
+        <p class="text-stone-600 text-xs mt-2 font-medium">📍 Zona 500 Viviendas | Villa Mercedes, San Luis</p>
+        <p class="text-stone-500 text-xs mt-1 max-w-md mx-auto">Seleccione el servicio de su preferencia para coordinar su turno de manera directa vía WhatsApp.</p>
+        
+        <!-- Botón de Consulta General -->
+        <div class="mt-4">
+            <a href="https://wa.me/549265770641?text=Hola!%20Me%20comunico%20para%20realizar%20una%20consulta%20general%20sobre%20los%20turnos." target="_blank" class="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-semibold px-4 py-2 rounded-full transition duration-200 shadow-sm">
+                💬 ¿Tiene alguna consulta? Contáctenos por WhatsApp
+            </a>
+        </div>
     </header>
 
     <!-- Contenido Principal: Listado de Servicios -->
     <main class="max-w-xl mx-auto p-4 w-full flex-grow space-y-4 my-4">
+
+        <!-- Tarjeta de Políticas y Condiciones -->
+        <div class="bg-white p-4 rounded-2xl shadow-sm border border-pink-200 text-xs text-stone-600 space-y-1.5">
+            <p class="font-semibold text-stone-800 text-center mb-2">📌 Condiciones del Servicio</p>
+            <p>• <strong class="text-stone-700">Seña para reserva:</strong> $5.000 (requisito indispensable para confirmar el espacio).</p>
+            <p>• <strong class="text-stone-700">Política de cancelación:</strong> Debe realizarse con un mínimo de 24 horas de anticipación; caso contrario, la seña no será reintegrada.</p>
+            <p>• <strong class="text-stone-700">Tolerancia de asistencia:</strong> El margen de espera máximo es de 15 minutos.</p>
+        </div>
 
         <!-- 1. Descontracturante / Relajante (Medio Cuerpo) -->
         <div class="bg-pink-50 p-5 rounded-2xl shadow-sm border border-pink-200 flex flex-col justify-between">
@@ -28,13 +44,11 @@
                 </div>
                 <p class="text-stone-500 text-sm mt-1">Ideal para aliviar tensiones específicas en zonas localizadas.</p>
                 <div class="text-stone-400 text-xs mt-3 flex items-center gap-2">
-                    <span>⏱️ 1 hora</span>
-                    <span>•</span>
-                    <span>Seña de reserva: $5.000</span>
+                    <span>⏱️ Duración: 1 hora</span>
                 </div>
             </div>
             <button onclick="reservar('Masaje Descontracturante / Relajante (Medio Cuerpo)', '$20.000')" class="mt-5 w-full bg-pink-900 hover:bg-pink-800 text-white font-medium py-2.5 rounded-xl transition duration-200 text-sm flex items-center justify-center gap-2">
-                Reservar Turno
+                Solicitar Turno
             </button>
         </div>
 
@@ -47,13 +61,11 @@
                 </div>
                 <p class="text-stone-500 text-sm mt-1">Relajación y descarga total para todo el cuerpo.</p>
                 <div class="text-stone-400 text-xs mt-3 flex items-center gap-2">
-                    <span>⏱️ 1 hora</span>
-                    <span>•</span>
-                    <span>Seña de reserva: $5.000</span>
+                    <span>⏱️ Duración: 1 hora</span>
                 </div>
             </div>
             <button onclick="reservar('Masaje Descontracturante / Relajante (Cuerpo Completo)', '$25.000')" class="mt-5 w-full bg-pink-900 hover:bg-pink-800 text-white font-medium py-2.5 rounded-xl transition duration-200 text-sm flex items-center justify-center gap-2">
-                Reservar Turno
+                Solicitar Turno
             </button>
         </div>
 
@@ -66,13 +78,11 @@
                 </div>
                 <p class="text-stone-500 text-sm mt-1">Enfocado en la recuperación muscular y prevención de lesiones en zonas específicas.</p>
                 <div class="text-stone-400 text-xs mt-3 flex items-center gap-2">
-                    <span>⏱️ 1 hora</span>
-                    <span>•</span>
-                    <span>Seña de reserva: $5.000</span>
+                    <span>⏱️ Duración: 1 hora</span>
                 </div>
             </div>
             <button onclick="reservar('Masaje Deportivo / Descargas Musculares (Medio Cuerpo)', '$20.000')" class="mt-5 w-full bg-pink-900 hover:bg-pink-800 text-white font-medium py-2.5 rounded-xl transition duration-200 text-sm flex items-center justify-center gap-2">
-                Reservar Turno
+                Solicitar Turno
             </button>
         </div>
 
@@ -85,13 +95,11 @@
                 </div>
                 <p class="text-stone-500 text-sm mt-1">Descarga muscular profunda e integral para todo el cuerpo.</p>
                 <div class="text-stone-400 text-xs mt-3 flex items-center gap-2">
-                    <span>⏱️ 1 hora</span>
-                    <span>•</span>
-                    <span>Seña de reserva: $5.000</span>
+                    <span>⏱️ Duración: 1 hora</span>
                 </div>
             </div>
             <button onclick="reservar('Masaje Deportivo / Descargas Musculares (Cuerpo Completo)', '$25.000')" class="mt-5 w-full bg-pink-900 hover:bg-pink-800 text-white font-medium py-2.5 rounded-xl transition duration-200 text-sm flex items-center justify-center gap-2">
-                Reservar Turno
+                Solicitar Turno
             </button>
         </div>
 
@@ -102,15 +110,13 @@
                     <h2 class="text-lg font-semibold text-stone-900">Maderoterapia</h2>
                     <span class="text-pink-700 font-bold bg-pink-100 px-3 py-1 rounded-full text-sm">$20.000</span>
                 </div>
-                <p class="text-stone-500 text-sm mt-1">1 sesión. <span class="font-medium text-stone-700">Consultar por el precio por más sesiones.</span></p>
+                <p class="text-stone-500 text-sm mt-1">1 sesión. <span class="font-medium text-stone-700">Consultar valor por paquetes de más sesiones.</span></p>
                 <div class="text-stone-400 text-xs mt-3 flex items-center gap-2">
-                    <span>⏱️ 1 hora</span>
-                    <span>•</span>
-                    <span>Seña de reserva: $5.000</span>
+                    <span>⏱️ Duración: 1 hora</span>
                 </div>
             </div>
             <button onclick="reservar('Maderoterapia', '$20.000')" class="mt-5 w-full bg-pink-900 hover:bg-pink-800 text-white font-medium py-2.5 rounded-xl transition duration-200 text-sm flex items-center justify-center gap-2">
-                Reservar Turno
+                Solicitar Turno
             </button>
         </div>
 
@@ -121,15 +127,13 @@
                     <h2 class="text-lg font-semibold text-stone-900">Fisioterapia</h2>
                     <span class="text-pink-700 font-bold bg-pink-100 px-3 py-1 rounded-full text-sm">$20.000</span>
                 </div>
-                <p class="text-stone-500 text-sm mt-1">1 sesión. <span class="font-medium text-stone-700">Consultar por el precio por más sesiones.</span></p>
+                <p class="text-stone-500 text-sm mt-1">1 sesión. <span class="font-medium text-stone-700">Consultar valor por paquetes de más sesiones.</span></p>
                 <div class="text-stone-400 text-xs mt-3 flex items-center gap-2">
-                    <span>⏱️ 1 hora</span>
-                    <span>•</span>
-                    <span>Seña de reserva: $5.000</span>
+                    <span>⏱️ Duración: 1 hora</span>
                 </div>
             </div>
             <button onclick="reservar('Fisioterapia', '$20.000')" class="mt-5 w-full bg-pink-900 hover:bg-pink-800 text-white font-medium py-2.5 rounded-xl transition duration-200 text-sm flex items-center justify-center gap-2">
-                Reservar Turno
+                Solicitar Turno
             </button>
         </div>
 
@@ -138,13 +142,14 @@
     <!-- Pie de página -->
     <footer class="text-center py-6 text-stone-400 text-xs">
         <p>Quiroga Gabriela — Fisioterapia y Masajes Colibrí</p>
+        <p class="mt-1">Villa Mercedes, San Luis</p>
     </footer>
 
     <!-- Lógica de WhatsApp -->
     <script>
         function reservar(servicio, precio) {
             const telefono = "549265770641"; 
-            const mensaje = `Hola! Me interesa reservar un turno para el servicio de *${servicio}* (${precio}). (Seña para reservar: $5.000). ¿Qué horarios tienen disponibles?`;
+            const mensaje = `Hola! Deseo solicitar un turno para el servicio de *${servicio}* (${precio}). (Comprendo que la seña para confirmar es de $5.000). ¿Qué horarios tienen disponibles?`;
             const url = `https://wa.me/${telefono}?text=${encodeURIComponent(mensaje)}`;
             window.open(url, '_blank');
         }
